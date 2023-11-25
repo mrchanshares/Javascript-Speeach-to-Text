@@ -58,7 +58,7 @@ function speechToText() {
           "No microphone was found. Ensure that a microphone is installed."
         );
       } else if (event.error === "not-allowed") {
-        alert("Permission to use microphone is blocked.");
+     //   alert("Permission to use microphone is blocked.");
       } else if (event.error === "aborted") {
         alert("Listening Stopped.");
       } else {
